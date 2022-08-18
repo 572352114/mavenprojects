@@ -19,6 +19,7 @@ public class HelloWorldController {
 
     @RequestMapping("/hello")
     public String handle01(){
+        System.out.println("ni hao!");
         return "Hello, Spring boot 2!";
     }
 
